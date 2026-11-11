@@ -1,0 +1,135 @@
+{
+  "https://office.lexware.de/preise/": {
+    "url": "https://office.lexware.de/preise/",
+    "status": 200,
+    "textHash": "ec3b1c99e8e703ae1da5d1e1be4522db3d7c8ec0be41b858a9bb9c3afd6b8a90",
+    "prices": [
+      "10,95 €",
+      "11,00 €",
+      "12,90 €",
+      "16,45 €",
+      "21,90 €",
+      "3,95 €",
+      "32,90 €",
+      "5,00 €",
+      "6,45 €",
+      "7,90 €"
+    ],
+    "textLength": 20997,
+    "checkedAt": "2026-11-11"
+  },
+  "https://help.lexware.de/de-form/articles/548951-so-einfach-erfasst-du-e-rechnungen-in-lexware-office": {
+    "url": "https://help.lexware.de/de-form/articles/548951-so-einfach-erfasst-du-e-rechnungen-in-lexware-office",
+    "status": 200,
+    "textHash": "2b1af9fa0c6f9ee58e0390216d48aa50f39e906c8ae1c2b1c668ce33c685ec8f",
+    "prices": [],
+    "textLength": 4765,
+    "checkedAt": "2026-11-11"
+  },
+  "https://help.lexware.de/de-form/articles/547942-e-rechnungen-versenden-und-empfangen": {
+    "url": "https://help.lexware.de/de-form/articles/547942-e-rechnungen-versenden-und-empfangen",
+    "status": 200,
+    "textHash": "26228b01bf69e23bddb394c1d684cbbfbcbcaeae247c66a4f7864bd6235f94ee",
+    "prices": [
+      "800.000 €"
+    ],
+    "textLength": 9944,
+    "checkedAt": "2026-11-11"
+  },
+  "https://help.lexware.de/de-form/articles/548714-fair-usage-policy": {
+    "url": "https://help.lexware.de/de-form/articles/548714-fair-usage-policy",
+    "status": 200,
+    "textHash": "25b9dcf7ef3dcb4440822a7068954c7b500d8f2d2fb2fc8ebe7a8def5e1a63a2",
+    "prices": [],
+    "textLength": 2688,
+    "checkedAt": "2026-11-11"
+  },
+  "https://sevdesk.de/preise/": {
+    "url": "https://sevdesk.de/preise/",
+    "status": 200,
+    "textHash": "28ff2b16df7c72a9beabc81063b275557ff9f5a0e72c1a6c5c3227ecc4fbed33",
+    "prices": [
+      "0,00 €",
+      "11,90 €",
+      "12,90 €",
+      "12,95 €",
+      "13,95 €",
+      "17,45 €",
+      "19,90 €",
+      "19,90€",
+      "22,90 €",
+      "24,90€",
+      "25,90 €",
+      "27,90 €",
+      "29,00€",
+      "3,00€",
+      "3,90€",
+      "30,90 €",
+      "34,90 €",
+      "4,45 €",
+      "4,90€",
+      "49,00€",
+      "5,90€",
+      "6,45 €",
+      "8,90 €",
+      "9,90 €",
+      "9,95 €"
+    ],
+    "textLength": 101261,
+    "checkedAt": "2026-11-11"
+  },
+  "https://sevdesk.de/e-rechnung-software/": {
+    "url": "https://sevdesk.de/e-rechnung-software/",
+    "status": 200,
+    "textHash": "b5eb2e4224eb0e705f62abdc2e9a16016ba3bc2f52e58a8a7b214a992f4c2923",
+    "prices": [],
+    "textLength": 21061,
+    "checkedAt": "2026-11-11"
+  },
+  "https://sevdesk.de/affiliate-partner-werden/": {
+    "url": "https://sevdesk.de/affiliate-partner-werden/",
+    "status": 200,
+    "textHash": "ec94bc6cd384f5ea7715030e771afc494d6d50be0e3a968aeeefd6d6275c24fc",
+    "prices": [
+      "200 €",
+      "30 €",
+      "95 €"
+    ],
+    "textLength": 8778,
+    "checkedAt": "2026-11-11"
+  },
+  "https://ui.awin.com/merchant-profile/13787/commission-groups": {
+    "url": "https://ui.awin.com/merchant-profile/13787/commission-groups",
+    "status": 200,
+    "textHash": "d78b29082be539704bd48455ac9ed3a9a8b27397a0c4a6f61bc41ee16423e0c7",
+    "prices": [
+      "55 €"
+    ],
+    "textLength": 918,
+    "checkedAt": "2026-11-11"
+  },
+  "https://raw.githubusercontent.com/ZUGFeRD/quba-viewer/master/README.md": {
+    "url": "https://raw.githubusercontent.com/ZUGFeRD/quba-viewer/master/README.md",
+    "status": 200,
+    "textHash": "2a80f6bdd2b79524b7477ae0e9d1b1bbf4fce2765fe0cba0ef89b5b0ed102556",
+    "prices": [],
+    "textLength": 7091,
+    "checkedAt": "2026-11-11"
+  },
+  "https://github.com/ZUGFeRD/quba-viewer/releases": {
+    "url": "https://github.com/ZUGFeRD/quba-viewer/releases",
+    "status": 200,
+    "textHash": "ccfb8d1fa3414d0658f2816446dfe86a0cb91632d567a87f0773f9191b040682",
+    "prices": [],
+    "textLength": 9649,
+    "checkedAt": "2026-11-11"
+  },
+  "https://quba-viewer.org/": {
+    "url": "https://quba-viewer.org/",
+    "status": 200,
+    "textHash": "cfe0310f8844d7f0a7f10918c0f1fd5dd2a5f79fc3114ebd7e6fc67d65a60c7e",
+    "prices": [],
+    "textLength": 5646,
+    "checkedAt": "2026-11-11"
+  }
+}
