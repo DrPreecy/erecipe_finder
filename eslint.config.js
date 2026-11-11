@@ -1,0 +1,17 @@
+// ESLint "flat config". We lint TypeScript/TSX; .astro files are type-checked by Astro itself.
+import js from "@eslint/js";
+import tseslint from "typescript-eslint";
+import globals from "globals";
+
+export default tseslint.config(
+  { ignores: ["dist/", ".astro/", "node_modules/", "**/*.astro"] },
+  js.configs.recommended,
+  ...tseslint.configs.recommended,
+  {
+    files: ["**/*.{ts,tsx,js,mjs}"],
+    languageOptions: { globals: { ...globals.node, ...globals.browser } },
+    rules: {
+      "@typescript-eslint/no-unused-vars": ["error", { argsIgnorePattern: "^_" }],
+    },
+  },
+);
