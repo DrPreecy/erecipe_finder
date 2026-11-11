@@ -1,0 +1,88 @@
+---
+/**
+ * The finder page. Everything in the frontmatter runs at BUILD time:
+ * the catalogue is validated, commercial data is stripped, and outbound links are resolved.
+ */
+import BaseLayout from "../layouts/BaseLayout.astro";
+import Finder from "../components/Finder.tsx";
+import { loadCatalogue, toPublicCatalogue } from "../lib/catalogue";
+import { outboundLinkFor } from "../lib/link-policy";
+import { STATUS_LABEL_DE } from "../lib/match";
+import { formatEuro } from "../lib/pricing";
+import type { FeatureKey } from "../lib/catalogue-schema";
+
+const full = loadCatalogue();
+const catalogue = toPublicCatalogue(full);
+const links = Object.fromEntries(
+  full.vendors.map((v) => [v.id, outboundLinkFor(v.id, full.affiliate_links, full.affiliate_programs)]),
+);
+
+// Static fallback table (works without JavaScript)
+const columns: FeatureKey[] = ["receive_xrechnung", "receive_zugferd", "send_xrechnung", "send_zugferd", "datev_export", "raw_xml_export"];
+const label = (k: FeatureKey) => full.features.find((f) => f.key === k)?.label_de ?? k;
+const statusOf = (planId: string, k: FeatureKey) =>
+  full.plan_features.find((f) => f.plan_id === planId && f.feature_key === k)?.status ?? "unknown";
+const cheapestMonthly = (planId: string) => {
+  const p = full.plan_prices.filter((x) => x.plan_id === planId);
+  const monthly = p.find((x) => x.billing_period === "monthly") ?? p[0];
+  if (!monthly) return "unbekannt";
+  const suffix = monthly.billing_period === "one_time" ? " einmalig" : "/Monat netto, monatliche Abrechnung";
+  return formatEuro(monthly.amount_cents) + suffix + (monthly.confidence === "conflicting" ? " ⚠ widersprüchlich" : "");
+};
+---
+<BaseLayout
+  title="E‑Rechnungssoftware finden – welcher Tarif reicht wirklich?"
+  description="Finde den kleinsten passenden Tarif für XRechnung und ZUGFeRD – mit Quellen, Prüfdatum und Jahreskosten."
+>
+  <h1>Die passende E‑Rechnungssoftware für deinen Ablauf</h1>
+  <p>
+    Mit Tarifgrenzen, Jahreskosten und nachvollziehbaren Quellen. Keine Anmeldung, keine Uploads – deine Antworten
+    bleiben in deinem Browser.
+  </p>
+
+  <aside class="disclosure" aria-label="Hinweis zu Werbung">
+    <strong>Werbung / Affiliate-Links (Platzhalter):</strong> Bei einem qualifizierten Abschluss können wir künftig eine
+    Provision erhalten. Die Provision beeinflusst unsere Sortierung nicht. Derzeit sind <em>keine</em> Partnerprogramme
+    freigeschaltet; alle Links sind normale Links zum Anbieter.
+  </aside>
+
+  <Finder client:load catalogue={catalogue} links={links} />
+
+  <noscript><p>Der interaktive Finder braucht JavaScript. Die Tabelle unten funktioniert ohne.</p></noscript>
+
+  <h2>Alle Tarife im Überblick</h2>
+  <p class="small">Stand der Angaben: siehe Prüfdatum je Quelle. „unbekannt“ heißt: in den geprüften Quellen nicht belegt.</p>
+  <div style="overflow-x:auto">
+    <table>
+      <thead>
+        <tr>
+          <th>Tarif</th>
+          <th>Preis</th>
+          {columns.map((k) => <th>{label(k)}</th>)}
+        </tr>
+      </thead>
+      <tbody>
+        {full.plans.map((p) => (
+          <tr>
+            <td>{p.name}</td>
+            <td>{cheapestMonthly(p.id)}</td>
+            {columns.map((k) => {
+              const s = statusOf(p.id, k);
+              return <td class={`status-${s}`}>{STATUS_LABEL_DE[s]}</td>;
+            })}
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </div>
+
+  <h2>Quellen</h2>
+  <ul class="small">
+    {full.sources.map((s) => (
+      <li>
+        <a href={s.url} rel="noopener noreferrer">{s.title}</a> – {s.publisher}, geprüft am {s.verified_at}
+        {s.published_at && <> (veröffentlicht {s.published_at})</>}
+      </li>
+    ))}
+  </ul>
+</BaseLayout>

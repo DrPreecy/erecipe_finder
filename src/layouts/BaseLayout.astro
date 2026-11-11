@@ -1,0 +1,35 @@
+---
+// Shared page shell: German language metadata, one canonical URL, no external fonts or trackers.
+import "../styles/global.css";
+interface Props {
+  title: string;
+  description: string;
+}
+const { title, description } = Astro.props;
+const canonical = new URL(Astro.url.pathname, Astro.site ?? "http://localhost:4321");
+---
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical.href} />
+    <!-- Preview build: keep out of search engines until legal pages (Impressum, Datenschutz) exist. -->
+    <meta name="robots" content="noindex" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a href="/" class="brand">E‑Rechnung Finder <span class="badge">Vorschau</span></a>
+    </header>
+    <main><slot /></main>
+    <footer class="site-footer">
+      <p>
+        Wir vergleichen technische Funktionen und veröffentlichte Tarifangaben. Die Ergebnisse sind keine individuelle
+        Rechts- oder Steuerberatung und bestätigen keine gesetzliche Konformität.
+      </p>
+      <p>Impressum · Datenschutz · Methodik — <em>Platzhalter, vor Veröffentlichung ausfüllen.</em></p>
+    </footer>
+  </body>
+</html>
