@@ -1,0 +1,35 @@
+[
+  {
+    "id": "link-lexware-office",
+    "vendor_id": "lexware-office",
+    "program_id": null,
+    "plan_id": null,
+    "destination_url": "https://office.lexware.de/preise/",
+    "approved_tracking_url": null,
+    "disclosure_label": null,
+    "status": "ordinary",
+    "checked_at": "2026-11-11"
+  },
+  {
+    "id": "link-sevdesk",
+    "vendor_id": "sevdesk",
+    "program_id": null,
+    "plan_id": null,
+    "destination_url": "https://sevdesk.de/preise/",
+    "approved_tracking_url": null,
+    "disclosure_label": null,
+    "status": "ordinary",
+    "checked_at": "2026-11-11"
+  },
+  {
+    "id": "link-quba",
+    "vendor_id": "quba",
+    "program_id": null,
+    "plan_id": null,
+    "destination_url": "https://quba-viewer.org/",
+    "approved_tracking_url": null,
+    "disclosure_label": null,
+    "status": "ordinary",
+    "checked_at": "2026-11-11"
+  }
+]

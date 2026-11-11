@@ -1,0 +1,29 @@
+[
+  {
+    "id": "lexware-office",
+    "slug": "lexware-office",
+    "name": "Lexware Office",
+    "website_url": "https://office.lexware.de/",
+    "market": "DE",
+    "kind": "saas",
+    "active": true
+  },
+  {
+    "id": "sevdesk",
+    "slug": "sevdesk",
+    "name": "sevdesk",
+    "website_url": "https://sevdesk.de/",
+    "market": "DE",
+    "kind": "saas",
+    "active": true
+  },
+  {
+    "id": "quba",
+    "slug": "quba",
+    "name": "Quba (Mustangproject)",
+    "website_url": "https://quba-viewer.org/",
+    "market": "DE",
+    "kind": "desktop_open_source",
+    "active": true
+  }
+]

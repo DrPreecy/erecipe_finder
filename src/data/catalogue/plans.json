@@ -1,0 +1,101 @@
+[
+  {
+    "id": "lexware-office-s",
+    "vendor_id": "lexware-office",
+    "slug": "lexware-office-s",
+    "name": "Lexware Office S",
+    "app_version": null,
+    "status": "active",
+    "observed_at": "2026-11-11",
+    "valid_from": null,
+    "valid_to": null
+  },
+  {
+    "id": "lexware-office-m",
+    "vendor_id": "lexware-office",
+    "slug": "lexware-office-m",
+    "name": "Lexware Office M",
+    "app_version": null,
+    "status": "active",
+    "observed_at": "2026-11-11",
+    "valid_from": null,
+    "valid_to": null
+  },
+  {
+    "id": "lexware-office-l",
+    "vendor_id": "lexware-office",
+    "slug": "lexware-office-l",
+    "name": "Lexware Office L",
+    "app_version": null,
+    "status": "active",
+    "observed_at": "2026-11-11",
+    "valid_from": null,
+    "valid_to": null
+  },
+  {
+    "id": "lexware-office-xl",
+    "vendor_id": "lexware-office",
+    "slug": "lexware-office-xl",
+    "name": "Lexware Office XL",
+    "app_version": null,
+    "status": "active",
+    "observed_at": "2026-11-11",
+    "valid_from": null,
+    "valid_to": null
+  },
+  {
+    "id": "sevdesk-kostenlos",
+    "vendor_id": "sevdesk",
+    "slug": "sevdesk-kostenlos",
+    "name": "sevdesk Kostenlos",
+    "app_version": null,
+    "status": "active",
+    "observed_at": "2026-11-11",
+    "valid_from": null,
+    "valid_to": null
+  },
+  {
+    "id": "sevdesk-rechnung",
+    "vendor_id": "sevdesk",
+    "slug": "sevdesk-rechnung",
+    "name": "sevdesk Rechnung",
+    "app_version": null,
+    "status": "active",
+    "observed_at": "2026-11-11",
+    "valid_from": null,
+    "valid_to": null
+  },
+  {
+    "id": "sevdesk-buchhaltung",
+    "vendor_id": "sevdesk",
+    "slug": "sevdesk-buchhaltung",
+    "name": "sevdesk Buchhaltung",
+    "app_version": null,
+    "status": "active",
+    "observed_at": "2026-11-11",
+    "valid_from": null,
+    "valid_to": null
+  },
+  {
+    "id": "sevdesk-buchhaltung-pro",
+    "vendor_id": "sevdesk",
+    "slug": "sevdesk-buchhaltung-pro",
+    "name": "sevdesk Buchhaltung Pro",
+    "app_version": null,
+    "status": "active",
+    "observed_at": "2026-11-11",
+    "valid_from": null,
+    "valid_to": null
+  },
+  {
+    "id": "quba-desktop",
+    "vendor_id": "quba",
+    "slug": "quba-desktop",
+    "name": "Quba Desktop",
+    "app_version": "2.0.0",
+    "status": "active",
+    "observed_at": "2026-11-11",
+    "valid_from": null,
+    "valid_to": null
+  }
+]

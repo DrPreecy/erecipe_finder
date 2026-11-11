@@ -1,0 +1,110 @@
+[
+  {
+    "id": "feat-receive-xrechnung",
+    "key": "receive_xrechnung",
+    "label_de": "XRechnung empfangen",
+    "description_de": "Eine eingehende XRechnung (reines XML) einlesen und lesbar anzeigen.",
+    "category": "receive",
+    "value_type": "boolean",
+    "unit": null
+  },
+  {
+    "id": "feat-receive-zugferd",
+    "key": "receive_zugferd",
+    "label_de": "ZUGFeRD empfangen",
+    "description_de": "Eine eingehende ZUGFeRD-Rechnung (PDF mit eingebettetem XML) einlesen und anzeigen.",
+    "category": "receive",
+    "value_type": "boolean",
+    "unit": null
+  },
+  {
+    "id": "feat-validate-incoming",
+    "key": "validate_incoming",
+    "label_de": "Eingang technisch prüfen",
+    "description_de": "Technische Prüfung empfangener E-Rechnungen (keine rechtliche Prüfung).",
+    "category": "receive",
+    "value_type": "boolean",
+    "unit": null
+  },
+  {
+    "id": "feat-send-xrechnung",
+    "key": "send_xrechnung",
+    "label_de": "XRechnung erstellen",
+    "description_de": "Eigene Rechnungen als XRechnung-XML erzeugen.",
+    "category": "send",
+    "value_type": "boolean",
+    "unit": null
+  },
+  {
+    "id": "feat-send-zugferd",
+    "key": "send_zugferd",
+    "label_de": "ZUGFeRD erstellen",
+    "description_de": "Eigene Rechnungen als ZUGFeRD-PDF erzeugen.",
+    "category": "send",
+    "value_type": "boolean",
+    "unit": null
+  },
+  {
+    "id": "feat-send-quota",
+    "key": "send_quota",
+    "label_de": "Rechnungsmenge",
+    "description_de": "Dokumentierte Obergrenze für ausgehende (E-)Rechnungen.",
+    "category": "send",
+    "value_type": "quota",
+    "unit": "Rechnungen"
+  },
+  {
+    "id": "feat-raw-xml-export",
+    "key": "raw_xml_export",
+    "label_de": "Original-XML herunterladen",
+    "description_de": "Die Original-XML einer empfangenen E-Rechnung wieder herunterladen.",
+    "category": "handover",
+    "value_type": "boolean",
+    "unit": null
+  },
+  {
+    "id": "feat-datev-export",
+    "key": "datev_export",
+    "label_de": "DATEV-Export",
+    "description_de": "Export in einem DATEV-Format für die Steuerberatung.",
+    "category": "handover",
+    "value_type": "boolean",
+    "unit": null
+  },
+  {
+    "id": "feat-tax-advisor-access",
+    "key": "tax_advisor_access",
+    "label_de": "Zugang für Steuerberatung",
+    "description_de": "Die Steuerberatung bekommt direkten Zugriff auf das Konto.",
+    "category": "handover",
+    "value_type": "boolean",
+    "unit": null
+  },
+  {
+    "id": "feat-bookkeeping-euer",
+    "key": "bookkeeping_euer",
+    "label_de": "Buchhaltung / EÜR",
+    "description_de": "Enthält Buchhaltung inkl. Einnahmen-Überschuss-Rechnung.",
+    "category": "workflow",
+    "value_type": "boolean",
+    "unit": null
+  },
+  {
+    "id": "feat-public-api",
+    "key": "public_api",
+    "label_de": "API",
+    "description_de": "Öffentliche Programmierschnittstelle.",
+    "category": "workflow",
+    "value_type": "boolean",
+    "unit": null
+  },
+  {
+    "id": "feat-runs-locally",
+    "key": "runs_locally",
+    "label_de": "Läuft lokal",
+    "description_de": "Läuft als Desktop-Programm auf dem eigenen Rechner, ohne Cloud-Konto.",
+    "category": "deployment",
+    "value_type": "boolean",
+    "unit": null
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "id": "aff-lexware-awin",
+    "vendor_id": "lexware-office",
+    "network": "Awin",
+    "status": "not_applied",
+    "rate_description": "Sale: ab 55 € (Standard für alle Publisher); 60 Tage Attribution; Auszahlung nach spätestens 3 Monaten, wenn keine Kündigung erfolgt.",
+    "terms_source_id": "src-awin-lexware",
+    "verified_at": "2026-11-11"
+  },
+  {
+    "id": "aff-sevdesk-awin",
+    "vendor_id": "sevdesk",
+    "network": "Awin",
+    "status": "not_applied",
+    "rate_description": "Bis zu 30 € (Rechnung), 95 € (Buchhaltung), 200 € (Buchhaltung Pro); abhängig von Tarif und Laufzeit.",
+    "terms_source_id": "src-sevdesk-affiliate",
+    "verified_at": "2026-11-11"
+  }
+]

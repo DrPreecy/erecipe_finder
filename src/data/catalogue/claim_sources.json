@@ -1,0 +1,954 @@
+[
+  {
+    "id": "cs-lexware-office-s--receive-xrechnung-1",
+    "source_id": "src-lexware-preise",
+    "plan_feature_id": "lexware-office-s--receive-xrechnung",
+    "plan_price_id": null,
+    "supporting_note": "Versionsvergleich: 'E-Rechnung erfassen' ✓ für S; Hilfe: EN-16931-XML inkl. XRechnung 3.0.1 (CII, UBL)."
+  },
+  {
+    "id": "cs-lexware-office-s--receive-xrechnung-2",
+    "source_id": "src-lexware-help-erfassen",
+    "plan_feature_id": "lexware-office-s--receive-xrechnung",
+    "plan_price_id": null,
+    "supporting_note": "Versionsvergleich: 'E-Rechnung erfassen' ✓ für S; Hilfe: EN-16931-XML inkl. XRechnung 3.0.1 (CII, UBL)."
+  },
+  {
+    "id": "cs-lexware-office-s--receive-zugferd-1",
+    "source_id": "src-lexware-preise",
+    "plan_feature_id": "lexware-office-s--receive-zugferd",
+    "plan_price_id": null,
+    "supporting_note": "Versionsvergleich: 'E-Rechnung erfassen' ✓ für S; Hilfe: ZUGFeRD ab 2.0."
+  },
+  {
+    "id": "cs-lexware-office-s--receive-zugferd-2",
+    "source_id": "src-lexware-help-erfassen",
+    "plan_feature_id": "lexware-office-s--receive-zugferd",
+    "plan_price_id": null,
+    "supporting_note": "Versionsvergleich: 'E-Rechnung erfassen' ✓ für S; Hilfe: ZUGFeRD ab 2.0."
+  },
+  {
+    "id": "cs-lexware-office-s--validate-incoming-1",
+    "source_id": "src-lexware-help-erfassen",
+    "plan_feature_id": "lexware-office-s--validate-incoming",
+    "plan_price_id": null,
+    "supporting_note": "Hilfe: 'Beim Upload von E-Rechnungen findet eine Validierung auf die technische Gültig- & Auswertbarkeit der Datei statt.'"
+  },
+  {
+    "id": "cs-lexware-office-s--raw-xml-export-1",
+    "source_id": "src-lexware-help-erfassen",
+    "plan_feature_id": "lexware-office-s--raw-xml-export",
+    "plan_price_id": null,
+    "supporting_note": "Hilfe: 'Über das Symbol der beiden Klammern <> kannst du dir die angehängte XML-Datei herunterladen.'"
+  },
+  {
+    "id": "cs-lexware-office-s--tax-advisor-access-1",
+    "source_id": "src-lexware-preise",
+    "plan_feature_id": "lexware-office-s--tax-advisor-access",
+    "plan_price_id": null,
+    "supporting_note": "Versionsvergleich: 'Steuerberater Zugang' ✓ für S."
+  },
+  {
+    "id": "cs-lexware-office-s--bookkeeping-euer-1",
+    "source_id": "src-lexware-preise",
+    "plan_feature_id": "lexware-office-s--bookkeeping-euer",
+    "plan_price_id": null,
+    "supporting_note": "Versionsvergleich: 'GuV & EÜR Berichte' ✗ für S."
+  },
+  {
+    "id": "cs-lexware-office-s--public-api-1",
+    "source_id": "src-lexware-preise",
+    "plan_feature_id": "lexware-office-s--public-api",
+    "plan_price_id": null,
+    "supporting_note": "Versionsvergleich: 'Public API' ✗ für S."
+  },
+  {
+    "id": "cs-lexware-office-s--runs-locally-1",
+    "source_id": "src-lexware-preise",
+    "plan_feature_id": "lexware-office-s--runs-locally",
+    "plan_price_id": null,
+    "supporting_note": "FAQ der Preisseite: 'Lexware Office ist als Cloud-Software jederzeit auf dem aktuellsten Stand.'"
+  },
+  {
+    "id": "cs-lexware-office-s--send-xrechnung-1",
+    "source_id": "src-lexware-preise",
+    "plan_feature_id": "lexware-office-s--send-xrechnung",
+    "plan_price_id": null,
+    "supporting_note": "Versionsvergleich: 'E-Rechnungen erstellen und übermitteln' ✗ für S."
+  },
+  {
+    "id": "cs-lexware-office-s--send-zugferd-1",
+    "source_id": "src-lexware-preise",
+    "plan_feature_id": "lexware-office-s--send-zugferd",
+    "plan_price_id": null,
+    "supporting_note": "Versionsvergleich: 'E-Rechnungen erstellen und übermitteln' ✗ für S."
+  },
+  {
+    "id": "cs-lexware-office-m--receive-xrechnung-1",
+    "source_id": "src-lexware-preise",
+    "plan_feature_id": "lexware-office-m--receive-xrechnung",
+    "plan_price_id": null,
+    "supporting_note": "Versionsvergleich: 'E-Rechnung erfassen' ✓ für M; Hilfe: EN-16931-XML inkl. XRechnung 3.0.1 (CII, UBL)."
+  },
+  {
+    "id": "cs-lexware-office-m--receive-xrechnung-2",
+    "source_id": "src-lexware-help-erfassen",
+    "plan_feature_id": "lexware-office-m--receive-xrechnung",
+    "plan_price_id": null,
+    "supporting_note": "Versionsvergleich: 'E-Rechnung erfassen' ✓ für M; Hilfe: EN-16931-XML inkl. XRechnung 3.0.1 (CII, UBL)."
+  },
+  {
+    "id": "cs-lexware-office-m--receive-zugferd-1",
+    "source_id": "src-lexware-preise",
+    "plan_feature_id": "lexware-office-m--receive-zugferd",
+    "plan_price_id": null,
+    "supporting_note": "Versionsvergleich: 'E-Rechnung erfassen' ✓ für M; Hilfe: ZUGFeRD ab 2.0."
+  },
+  {
+    "id": "cs-lexware-office-m--receive-zugferd-2",
+    "source_id": "src-lexware-help-erfassen",
+    "plan_feature_id": "lexware-office-m--receive-zugferd",
+    "plan_price_id": null,
+    "supporting_note": "Versionsvergleich: 'E-Rechnung erfassen' ✓ für M; Hilfe: ZUGFeRD ab 2.0."
+  },
+  {
+    "id": "cs-lexware-office-m--validate-incoming-1",
+    "source_id": "src-lexware-help-erfassen",
+    "plan_feature_id": "lexware-office-m--validate-incoming",
+    "plan_price_id": null,
+    "supporting_note": "Hilfe: 'Beim Upload von E-Rechnungen findet eine Validierung auf die technische Gültig- & Auswertbarkeit der Datei statt.'"
+  },
+  {
+    "id": "cs-lexware-office-m--raw-xml-export-1",
+    "source_id": "src-lexware-help-erfassen",
+    "plan_feature_id": "lexware-office-m--raw-xml-export",
+    "plan_price_id": null,
+    "supporting_note": "Hilfe: 'Über das Symbol der beiden Klammern <> kannst du dir die angehängte XML-Datei herunterladen.'"
+  },
+  {
+    "id": "cs-lexware-office-m--tax-advisor-access-1",
+    "source_id": "src-lexware-preise",
+    "plan_feature_id": "lexware-office-m--tax-advisor-access",
+    "plan_price_id": null,
+    "supporting_note": "Versionsvergleich: 'Steuerberater Zugang' ✓ für M."
+  },
+  {
+    "id": "cs-lexware-office-m--bookkeeping-euer-1",
+    "source_id": "src-lexware-preise",
+    "plan_feature_id": "lexware-office-m--bookkeeping-euer",
+    "plan_price_id": null,
+    "supporting_note": "Versionsvergleich: 'GuV & EÜR Berichte' ✗ für M."
+  },
+  {
+    "id": "cs-lexware-office-m--public-api-1",
+    "source_id": "src-lexware-preise",
+    "plan_feature_id": "lexware-office-m--public-api",
+    "plan_price_id": null,
+    "supporting_note": "Versionsvergleich: 'Public API' ✗ für M."
+  },
+  {
+    "id": "cs-lexware-office-m--runs-locally-1",
+    "source_id": "src-lexware-preise",
+    "plan_feature_id": "lexware-office-m--runs-locally",
+    "plan_price_id": null,
+    "supporting_note": "FAQ der Preisseite: 'Lexware Office ist als Cloud-Software jederzeit auf dem aktuellsten Stand.'"
+  },
+  {
+    "id": "cs-lexware-office-m--send-xrechnung-1",
+    "source_id": "src-lexware-preise",
+    "plan_feature_id": "lexware-office-m--send-xrechnung",
+    "plan_price_id": null,
+    "supporting_note": "Versionsvergleich: 'E-Rechnungen erstellen und übermitteln (Formate: ZUGFeRD und XRechnungen)' ✓ für M."
+  },
+  {
+    "id": "cs-lexware-office-m--send-xrechnung-2",
+    "source_id": "src-lexware-help-versenden",
+    "plan_feature_id": "lexware-office-m--send-xrechnung",
+    "plan_price_id": null,
+    "supporting_note": "Versionsvergleich: 'E-Rechnungen erstellen und übermitteln (Formate: ZUGFeRD und XRechnungen)' ✓ für M."
+  },
+  {
+    "id": "cs-lexware-office-m--send-zugferd-1",
+    "source_id": "src-lexware-preise",
+    "plan_feature_id": "lexware-office-m--send-zugferd",
+    "plan_price_id": null,
+    "supporting_note": "Versionsvergleich: 'E-Rechnungen erstellen und übermitteln (Formate: ZUGFeRD und XRechnungen)' ✓ für M."
+  },
+  {
+    "id": "cs-lexware-office-m--send-zugferd-2",
+    "source_id": "src-lexware-help-versenden",
+    "plan_feature_id": "lexware-office-m--send-zugferd",
+    "plan_price_id": null,
+    "supporting_note": "Versionsvergleich: 'E-Rechnungen erstellen und übermitteln (Formate: ZUGFeRD und XRechnungen)' ✓ für M."
+  },
+  {
+    "id": "cs-lexware-office-m--send-quota-1",
+    "source_id": "src-lexware-fair-usage",
+    "plan_feature_id": "lexware-office-m--send-quota",
+    "plan_price_id": null,
+    "supporting_note": "Fair Usage Policy: 'bis zu 50.000 Belege (Ein/-Ausgangsbelege) in einem Kalenderjahr'."
+  },
+  {
+    "id": "cs-lexware-office-l--receive-xrechnung-1",
+    "source_id": "src-lexware-preise",
+    "plan_feature_id": "lexware-office-l--receive-xrechnung",
+    "plan_price_id": null,
+    "supporting_note": "Versionsvergleich: 'E-Rechnung erfassen' ✓ für L; Hilfe: EN-16931-XML inkl. XRechnung 3.0.1 (CII, UBL)."
+  },
+  {
+    "id": "cs-lexware-office-l--receive-xrechnung-2",
+    "source_id": "src-lexware-help-erfassen",
+    "plan_feature_id": "lexware-office-l--receive-xrechnung",
+    "plan_price_id": null,
+    "supporting_note": "Versionsvergleich: 'E-Rechnung erfassen' ✓ für L; Hilfe: EN-16931-XML inkl. XRechnung 3.0.1 (CII, UBL)."
+  },
+  {
+    "id": "cs-lexware-office-l--receive-zugferd-1",
+    "source_id": "src-lexware-preise",
+    "plan_feature_id": "lexware-office-l--receive-zugferd",
+    "plan_price_id": null,
+    "supporting_note": "Versionsvergleich: 'E-Rechnung erfassen' ✓ für L; Hilfe: ZUGFeRD ab 2.0."
+  },
+  {
+    "id": "cs-lexware-office-l--receive-zugferd-2",
+    "source_id": "src-lexware-help-erfassen",
+    "plan_feature_id": "lexware-office-l--receive-zugferd",
+    "plan_price_id": null,
+    "supporting_note": "Versionsvergleich: 'E-Rechnung erfassen' ✓ für L; Hilfe: ZUGFeRD ab 2.0."
+  },
+  {
+    "id": "cs-lexware-office-l--validate-incoming-1",
+    "source_id": "src-lexware-help-erfassen",
+    "plan_feature_id": "lexware-office-l--validate-incoming",
+    "plan_price_id": null,
+    "supporting_note": "Hilfe: 'Beim Upload von E-Rechnungen findet eine Validierung auf die technische Gültig- & Auswertbarkeit der Datei statt.'"
+  },
+  {
+    "id": "cs-lexware-office-l--raw-xml-export-1",
+    "source_id": "src-lexware-help-erfassen",
+    "plan_feature_id": "lexware-office-l--raw-xml-export",
+    "plan_price_id": null,
+    "supporting_note": "Hilfe: 'Über das Symbol der beiden Klammern <> kannst du dir die angehängte XML-Datei herunterladen.'"
+  },
+  {
+    "id": "cs-lexware-office-l--tax-advisor-access-1",
+    "source_id": "src-lexware-preise",
+    "plan_feature_id": "lexware-office-l--tax-advisor-access",
+    "plan_price_id": null,
+    "supporting_note": "Versionsvergleich: 'Steuerberater Zugang' ✓ für L."
+  },
+  {
+    "id": "cs-lexware-office-l--bookkeeping-euer-1",
+    "source_id": "src-lexware-preise",
+    "plan_feature_id": "lexware-office-l--bookkeeping-euer",
+    "plan_price_id": null,
+    "supporting_note": "Versionsvergleich: 'GuV & EÜR Berichte' ✓ für L."
+  },
+  {
+    "id": "cs-lexware-office-l--public-api-1",
+    "source_id": "src-lexware-preise",
+    "plan_feature_id": "lexware-office-l--public-api",
+    "plan_price_id": null,
+    "supporting_note": "Versionsvergleich: 'Public API' ✗ für L."
+  },
+  {
+    "id": "cs-lexware-office-l--runs-locally-1",
+    "source_id": "src-lexware-preise",
+    "plan_feature_id": "lexware-office-l--runs-locally",
+    "plan_price_id": null,
+    "supporting_note": "FAQ der Preisseite: 'Lexware Office ist als Cloud-Software jederzeit auf dem aktuellsten Stand.'"
+  },
+  {
+    "id": "cs-lexware-office-l--send-xrechnung-1",
+    "source_id": "src-lexware-preise",
+    "plan_feature_id": "lexware-office-l--send-xrechnung",
+    "plan_price_id": null,
+    "supporting_note": "Versionsvergleich: 'E-Rechnungen erstellen und übermitteln (Formate: ZUGFeRD und XRechnungen)' ✓ für L."
+  },
+  {
+    "id": "cs-lexware-office-l--send-xrechnung-2",
+    "source_id": "src-lexware-help-versenden",
+    "plan_feature_id": "lexware-office-l--send-xrechnung",
+    "plan_price_id": null,
+    "supporting_note": "Versionsvergleich: 'E-Rechnungen erstellen und übermitteln (Formate: ZUGFeRD und XRechnungen)' ✓ für L."
+  },
+  {
+    "id": "cs-lexware-office-l--send-zugferd-1",
+    "source_id": "src-lexware-preise",
+    "plan_feature_id": "lexware-office-l--send-zugferd",
+    "plan_price_id": null,
+    "supporting_note": "Versionsvergleich: 'E-Rechnungen erstellen und übermitteln (Formate: ZUGFeRD und XRechnungen)' ✓ für L."
+  },
+  {
+    "id": "cs-lexware-office-l--send-zugferd-2",
+    "source_id": "src-lexware-help-versenden",
+    "plan_feature_id": "lexware-office-l--send-zugferd",
+    "plan_price_id": null,
+    "supporting_note": "Versionsvergleich: 'E-Rechnungen erstellen und übermitteln (Formate: ZUGFeRD und XRechnungen)' ✓ für L."
+  },
+  {
+    "id": "cs-lexware-office-l--send-quota-1",
+    "source_id": "src-lexware-fair-usage",
+    "plan_feature_id": "lexware-office-l--send-quota",
+    "plan_price_id": null,
+    "supporting_note": "Fair Usage Policy: 'bis zu 50.000 Belege (Ein/-Ausgangsbelege) in einem Kalenderjahr'."
+  },
+  {
+    "id": "cs-lexware-office-xl--receive-xrechnung-1",
+    "source_id": "src-lexware-preise",
+    "plan_feature_id": "lexware-office-xl--receive-xrechnung",
+    "plan_price_id": null,
+    "supporting_note": "Versionsvergleich: 'E-Rechnung erfassen' ✓ für XL; Hilfe: EN-16931-XML inkl. XRechnung 3.0.1 (CII, UBL)."
+  },
+  {
+    "id": "cs-lexware-office-xl--receive-xrechnung-2",
+    "source_id": "src-lexware-help-erfassen",
+    "plan_feature_id": "lexware-office-xl--receive-xrechnung",
+    "plan_price_id": null,
+    "supporting_note": "Versionsvergleich: 'E-Rechnung erfassen' ✓ für XL; Hilfe: EN-16931-XML inkl. XRechnung 3.0.1 (CII, UBL)."
+  },
+  {
+    "id": "cs-lexware-office-xl--receive-zugferd-1",
+    "source_id": "src-lexware-preise",
+    "plan_feature_id": "lexware-office-xl--receive-zugferd",
+    "plan_price_id": null,
+    "supporting_note": "Versionsvergleich: 'E-Rechnung erfassen' ✓ für XL; Hilfe: ZUGFeRD ab 2.0."
+  },
+  {
+    "id": "cs-lexware-office-xl--receive-zugferd-2",
+    "source_id": "src-lexware-help-erfassen",
+    "plan_feature_id": "lexware-office-xl--receive-zugferd",
+    "plan_price_id": null,
+    "supporting_note": "Versionsvergleich: 'E-Rechnung erfassen' ✓ für XL; Hilfe: ZUGFeRD ab 2.0."
+  },
+  {
+    "id": "cs-lexware-office-xl--validate-incoming-1",
+    "source_id": "src-lexware-help-erfassen",
+    "plan_feature_id": "lexware-office-xl--validate-incoming",
+    "plan_price_id": null,
+    "supporting_note": "Hilfe: 'Beim Upload von E-Rechnungen findet eine Validierung auf die technische Gültig- & Auswertbarkeit der Datei statt.'"
+  },
+  {
+    "id": "cs-lexware-office-xl--raw-xml-export-1",
+    "source_id": "src-lexware-help-erfassen",
+    "plan_feature_id": "lexware-office-xl--raw-xml-export",
+    "plan_price_id": null,
+    "supporting_note": "Hilfe: 'Über das Symbol der beiden Klammern <> kannst du dir die angehängte XML-Datei herunterladen.'"
+  },
+  {
+    "id": "cs-lexware-office-xl--tax-advisor-access-1",
+    "source_id": "src-lexware-preise",
+    "plan_feature_id": "lexware-office-xl--tax-advisor-access",
+    "plan_price_id": null,
+    "supporting_note": "Versionsvergleich: 'Steuerberater Zugang' ✓ für XL."
+  },
+  {
+    "id": "cs-lexware-office-xl--bookkeeping-euer-1",
+    "source_id": "src-lexware-preise",
+    "plan_feature_id": "lexware-office-xl--bookkeeping-euer",
+    "plan_price_id": null,
+    "supporting_note": "Versionsvergleich: 'GuV & EÜR Berichte' ✓ für XL."
+  },
+  {
+    "id": "cs-lexware-office-xl--public-api-1",
+    "source_id": "src-lexware-preise",
+    "plan_feature_id": "lexware-office-xl--public-api",
+    "plan_price_id": null,
+    "supporting_note": "Versionsvergleich: 'Public API' ✓ für XL."
+  },
+  {
+    "id": "cs-lexware-office-xl--runs-locally-1",
+    "source_id": "src-lexware-preise",
+    "plan_feature_id": "lexware-office-xl--runs-locally",
+    "plan_price_id": null,
+    "supporting_note": "FAQ der Preisseite: 'Lexware Office ist als Cloud-Software jederzeit auf dem aktuellsten Stand.'"
+  },
+  {
+    "id": "cs-lexware-office-xl--send-xrechnung-1",
+    "source_id": "src-lexware-preise",
+    "plan_feature_id": "lexware-office-xl--send-xrechnung",
+    "plan_price_id": null,
+    "supporting_note": "Versionsvergleich: 'E-Rechnungen erstellen und übermitteln (Formate: ZUGFeRD und XRechnungen)' ✓ für XL."
+  },
+  {
+    "id": "cs-lexware-office-xl--send-xrechnung-2",
+    "source_id": "src-lexware-help-versenden",
+    "plan_feature_id": "lexware-office-xl--send-xrechnung",
+    "plan_price_id": null,
+    "supporting_note": "Versionsvergleich: 'E-Rechnungen erstellen und übermitteln (Formate: ZUGFeRD und XRechnungen)' ✓ für XL."
+  },
+  {
+    "id": "cs-lexware-office-xl--send-zugferd-1",
+    "source_id": "src-lexware-preise",
+    "plan_feature_id": "lexware-office-xl--send-zugferd",
+    "plan_price_id": null,
+    "supporting_note": "Versionsvergleich: 'E-Rechnungen erstellen und übermitteln (Formate: ZUGFeRD und XRechnungen)' ✓ für XL."
+  },
+  {
+    "id": "cs-lexware-office-xl--send-zugferd-2",
+    "source_id": "src-lexware-help-versenden",
+    "plan_feature_id": "lexware-office-xl--send-zugferd",
+    "plan_price_id": null,
+    "supporting_note": "Versionsvergleich: 'E-Rechnungen erstellen und übermitteln (Formate: ZUGFeRD und XRechnungen)' ✓ für XL."
+  },
+  {
+    "id": "cs-lexware-office-xl--send-quota-1",
+    "source_id": "src-lexware-fair-usage",
+    "plan_feature_id": "lexware-office-xl--send-quota",
+    "plan_price_id": null,
+    "supporting_note": "Fair Usage Policy: 'bis zu 50.000 Belege (Ein/-Ausgangsbelege) in einem Kalenderjahr'."
+  },
+  {
+    "id": "cs-sevdesk-kostenlos--send-xrechnung-1",
+    "source_id": "src-sevdesk-preise",
+    "plan_feature_id": "sevdesk-kostenlos--send-xrechnung",
+    "plan_price_id": null,
+    "supporting_note": "Tarifkarte Kostenlos: '3 Rechnungen / E-Rechnungen pro Monat schreiben', 'ZUGFeRD und XRechnung'."
+  },
+  {
+    "id": "cs-sevdesk-kostenlos--send-zugferd-1",
+    "source_id": "src-sevdesk-preise",
+    "plan_feature_id": "sevdesk-kostenlos--send-zugferd",
+    "plan_price_id": null,
+    "supporting_note": "Tarifkarte Kostenlos: '3 Rechnungen / E-Rechnungen pro Monat schreiben', 'ZUGFeRD und XRechnung'."
+  },
+  {
+    "id": "cs-sevdesk-kostenlos--send-quota-1",
+    "source_id": "src-sevdesk-preise",
+    "plan_feature_id": "sevdesk-kostenlos--send-quota",
+    "plan_price_id": null,
+    "supporting_note": "Tarifkarte Kostenlos: '3 Rechnungen / E-Rechnungen pro Monat schreiben'."
+  },
+  {
+    "id": "cs-sevdesk-kostenlos--receive-xrechnung-1",
+    "source_id": "src-sevdesk-preise",
+    "plan_feature_id": "sevdesk-kostenlos--receive-xrechnung",
+    "plan_price_id": null,
+    "supporting_note": "Abgeleitet: Tarif 'Rechnung' enthält laut Tarifkarte 'Alle Funktionen aus Kostenlos' und hat diese Funktion laut Vergleichstabelle nicht."
+  },
+  {
+    "id": "cs-sevdesk-kostenlos--receive-zugferd-1",
+    "source_id": "src-sevdesk-preise",
+    "plan_feature_id": "sevdesk-kostenlos--receive-zugferd",
+    "plan_price_id": null,
+    "supporting_note": "Abgeleitet: Tarif 'Rechnung' enthält laut Tarifkarte 'Alle Funktionen aus Kostenlos' und hat diese Funktion laut Vergleichstabelle nicht."
+  },
+  {
+    "id": "cs-sevdesk-kostenlos--validate-incoming-1",
+    "source_id": "src-sevdesk-preise",
+    "plan_feature_id": "sevdesk-kostenlos--validate-incoming",
+    "plan_price_id": null,
+    "supporting_note": "Abgeleitet: Tarif 'Rechnung' enthält laut Tarifkarte 'Alle Funktionen aus Kostenlos' und hat diese Funktion laut Vergleichstabelle nicht. (Kein E-Rechnungs-Empfang.)"
+  },
+  {
+    "id": "cs-sevdesk-kostenlos--raw-xml-export-1",
+    "source_id": "src-sevdesk-preise",
+    "plan_feature_id": "sevdesk-kostenlos--raw-xml-export",
+    "plan_price_id": null,
+    "supporting_note": "Abgeleitet: Tarif 'Rechnung' enthält laut Tarifkarte 'Alle Funktionen aus Kostenlos' und hat diese Funktion laut Vergleichstabelle nicht. (Kein E-Rechnungs-Empfang.)"
+  },
+  {
+    "id": "cs-sevdesk-kostenlos--datev-export-1",
+    "source_id": "src-sevdesk-preise",
+    "plan_feature_id": "sevdesk-kostenlos--datev-export",
+    "plan_price_id": null,
+    "supporting_note": "Tarifkarte 'Rechnung' nennt 'DATEV- / ADDISON Schnittstelle' als Zusatz gegenüber 'Kostenlos'."
+  },
+  {
+    "id": "cs-sevdesk-kostenlos--tax-advisor-access-1",
+    "source_id": "src-sevdesk-preise",
+    "plan_feature_id": "sevdesk-kostenlos--tax-advisor-access",
+    "plan_price_id": null,
+    "supporting_note": "Tarifkarte 'Rechnung' nennt 'Verknüpfung zu deiner Steuerberatung' als Zusatz gegenüber 'Kostenlos'."
+  },
+  {
+    "id": "cs-sevdesk-kostenlos--bookkeeping-euer-1",
+    "source_id": "src-sevdesk-preise",
+    "plan_feature_id": "sevdesk-kostenlos--bookkeeping-euer",
+    "plan_price_id": null,
+    "supporting_note": "Abgeleitet: Tarif 'Rechnung' enthält laut Tarifkarte 'Alle Funktionen aus Kostenlos' und hat diese Funktion laut Vergleichstabelle nicht."
+  },
+  {
+    "id": "cs-sevdesk-kostenlos--public-api-1",
+    "source_id": "src-sevdesk-preise",
+    "plan_feature_id": "sevdesk-kostenlos--public-api",
+    "plan_price_id": null,
+    "supporting_note": "Abgeleitet: Tarif 'Rechnung' enthält laut Tarifkarte 'Alle Funktionen aus Kostenlos' und hat diese Funktion laut Vergleichstabelle nicht."
+  },
+  {
+    "id": "cs-sevdesk-kostenlos--runs-locally-1",
+    "source_id": "src-sevdesk-preise",
+    "plan_feature_id": "sevdesk-kostenlos--runs-locally",
+    "plan_price_id": null,
+    "supporting_note": "Produktbeschreibung (schema.org) der Preisseite: 'cloudbasierte Rechnungs- und Buchhaltungssoftware'."
+  },
+  {
+    "id": "cs-sevdesk-rechnung--send-xrechnung-1",
+    "source_id": "src-sevdesk-preise",
+    "plan_feature_id": "sevdesk-rechnung--send-xrechnung",
+    "plan_price_id": null,
+    "supporting_note": "Vergleichstabelle 'E-Rechnung (in den Formaten ZUGFeRD und XRechnung) – E-Rechnungen schreiben': 'unbegrenzt' für Rechnung."
+  },
+  {
+    "id": "cs-sevdesk-rechnung--send-xrechnung-2",
+    "source_id": "src-sevdesk-e-rechnung",
+    "plan_feature_id": "sevdesk-rechnung--send-xrechnung",
+    "plan_price_id": null,
+    "supporting_note": "Vergleichstabelle 'E-Rechnung (in den Formaten ZUGFeRD und XRechnung) – E-Rechnungen schreiben': 'unbegrenzt' für Rechnung."
+  },
+  {
+    "id": "cs-sevdesk-rechnung--send-zugferd-1",
+    "source_id": "src-sevdesk-preise",
+    "plan_feature_id": "sevdesk-rechnung--send-zugferd",
+    "plan_price_id": null,
+    "supporting_note": "Vergleichstabelle 'E-Rechnung (in den Formaten ZUGFeRD und XRechnung) – E-Rechnungen schreiben': 'unbegrenzt' für Rechnung."
+  },
+  {
+    "id": "cs-sevdesk-rechnung--send-zugferd-2",
+    "source_id": "src-sevdesk-e-rechnung",
+    "plan_feature_id": "sevdesk-rechnung--send-zugferd",
+    "plan_price_id": null,
+    "supporting_note": "Vergleichstabelle 'E-Rechnung (in den Formaten ZUGFeRD und XRechnung) – E-Rechnungen schreiben': 'unbegrenzt' für Rechnung."
+  },
+  {
+    "id": "cs-sevdesk-rechnung--send-quota-1",
+    "source_id": "src-sevdesk-preise",
+    "plan_feature_id": "sevdesk-rechnung--send-quota",
+    "plan_price_id": null,
+    "supporting_note": "Tarifkarte Rechnung: 'Unbegrenzte (E-)Rechnungen schreiben'."
+  },
+  {
+    "id": "cs-sevdesk-rechnung--receive-xrechnung-1",
+    "source_id": "src-sevdesk-preise",
+    "plan_feature_id": "sevdesk-rechnung--receive-xrechnung",
+    "plan_price_id": null,
+    "supporting_note": "Vergleichstabelle 'Empfangene E-Rechnungen erfassen': '–' für Rechnung."
+  },
+  {
+    "id": "cs-sevdesk-rechnung--receive-zugferd-1",
+    "source_id": "src-sevdesk-preise",
+    "plan_feature_id": "sevdesk-rechnung--receive-zugferd",
+    "plan_price_id": null,
+    "supporting_note": "Vergleichstabelle 'Empfangene E-Rechnungen erfassen': '–' für Rechnung."
+  },
+  {
+    "id": "cs-sevdesk-rechnung--validate-incoming-1",
+    "source_id": "src-sevdesk-preise",
+    "plan_feature_id": "sevdesk-rechnung--validate-incoming",
+    "plan_price_id": null,
+    "supporting_note": "Kein E-Rechnungs-Empfang im Tarif Rechnung (Vergleichstabelle '–')."
+  },
+  {
+    "id": "cs-sevdesk-rechnung--raw-xml-export-1",
+    "source_id": "src-sevdesk-preise",
+    "plan_feature_id": "sevdesk-rechnung--raw-xml-export",
+    "plan_price_id": null,
+    "supporting_note": "Kein E-Rechnungs-Empfang im Tarif Rechnung (Vergleichstabelle '–')."
+  },
+  {
+    "id": "cs-sevdesk-rechnung--datev-export-1",
+    "source_id": "src-sevdesk-preise",
+    "plan_feature_id": "sevdesk-rechnung--datev-export",
+    "plan_price_id": null,
+    "supporting_note": "Vergleichstabelle 'Export (DATEV-konform)' ✓ für Rechnung; Steuerberatung: CSV/XML (DATEV-Format), DATEV Rechnungsdatenservice 1.0, DATEV Buchungsdatenservice."
+  },
+  {
+    "id": "cs-sevdesk-rechnung--tax-advisor-access-1",
+    "source_id": "src-sevdesk-preise",
+    "plan_feature_id": "sevdesk-rechnung--tax-advisor-access",
+    "plan_price_id": null,
+    "supporting_note": "Vergleichstabelle 'Zusammenarbeit mit deiner Steuerberatung' ✓ für Rechnung."
+  },
+  {
+    "id": "cs-sevdesk-rechnung--bookkeeping-euer-1",
+    "source_id": "src-sevdesk-preise",
+    "plan_feature_id": "sevdesk-rechnung--bookkeeping-euer",
+    "plan_price_id": null,
+    "supporting_note": "Vergleichstabelle 'Einnahmen-Überschuss-Rechnung (EÜR)': – für Rechnung."
+  },
+  {
+    "id": "cs-sevdesk-rechnung--public-api-1",
+    "source_id": "src-sevdesk-preise",
+    "plan_feature_id": "sevdesk-rechnung--public-api",
+    "plan_price_id": null,
+    "supporting_note": "Vergleichstabelle 'REST-API Schnittstelle': – für Rechnung."
+  },
+  {
+    "id": "cs-sevdesk-rechnung--runs-locally-1",
+    "source_id": "src-sevdesk-preise",
+    "plan_feature_id": "sevdesk-rechnung--runs-locally",
+    "plan_price_id": null,
+    "supporting_note": "Produktbeschreibung (schema.org) der Preisseite: 'cloudbasierte Rechnungs- und Buchhaltungssoftware'."
+  },
+  {
+    "id": "cs-sevdesk-buchhaltung--send-xrechnung-1",
+    "source_id": "src-sevdesk-preise",
+    "plan_feature_id": "sevdesk-buchhaltung--send-xrechnung",
+    "plan_price_id": null,
+    "supporting_note": "Vergleichstabelle 'E-Rechnung (in den Formaten ZUGFeRD und XRechnung) – E-Rechnungen schreiben': 'unbegrenzt' für Buchhaltung."
+  },
+  {
+    "id": "cs-sevdesk-buchhaltung--send-xrechnung-2",
+    "source_id": "src-sevdesk-e-rechnung",
+    "plan_feature_id": "sevdesk-buchhaltung--send-xrechnung",
+    "plan_price_id": null,
+    "supporting_note": "Vergleichstabelle 'E-Rechnung (in den Formaten ZUGFeRD und XRechnung) – E-Rechnungen schreiben': 'unbegrenzt' für Buchhaltung."
+  },
+  {
+    "id": "cs-sevdesk-buchhaltung--send-zugferd-1",
+    "source_id": "src-sevdesk-preise",
+    "plan_feature_id": "sevdesk-buchhaltung--send-zugferd",
+    "plan_price_id": null,
+    "supporting_note": "Vergleichstabelle 'E-Rechnung (in den Formaten ZUGFeRD und XRechnung) – E-Rechnungen schreiben': 'unbegrenzt' für Buchhaltung."
+  },
+  {
+    "id": "cs-sevdesk-buchhaltung--send-zugferd-2",
+    "source_id": "src-sevdesk-e-rechnung",
+    "plan_feature_id": "sevdesk-buchhaltung--send-zugferd",
+    "plan_price_id": null,
+    "supporting_note": "Vergleichstabelle 'E-Rechnung (in den Formaten ZUGFeRD und XRechnung) – E-Rechnungen schreiben': 'unbegrenzt' für Buchhaltung."
+  },
+  {
+    "id": "cs-sevdesk-buchhaltung--send-quota-1",
+    "source_id": "src-sevdesk-preise",
+    "plan_feature_id": "sevdesk-buchhaltung--send-quota",
+    "plan_price_id": null,
+    "supporting_note": "Tarifkarte Buchhaltung: 'Unbegrenzte (E-)Rechnungen schreiben'."
+  },
+  {
+    "id": "cs-sevdesk-buchhaltung--receive-xrechnung-1",
+    "source_id": "src-sevdesk-preise",
+    "plan_feature_id": "sevdesk-buchhaltung--receive-xrechnung",
+    "plan_price_id": null,
+    "supporting_note": "Vergleichstabelle 'Empfangene E-Rechnungen erfassen' ✓ für Buchhaltung; Produktseite: Upload 'als XRechnung oder im ZUGFeRD-Format'."
+  },
+  {
+    "id": "cs-sevdesk-buchhaltung--receive-xrechnung-2",
+    "source_id": "src-sevdesk-e-rechnung",
+    "plan_feature_id": "sevdesk-buchhaltung--receive-xrechnung",
+    "plan_price_id": null,
+    "supporting_note": "Vergleichstabelle 'Empfangene E-Rechnungen erfassen' ✓ für Buchhaltung; Produktseite: Upload 'als XRechnung oder im ZUGFeRD-Format'."
+  },
+  {
+    "id": "cs-sevdesk-buchhaltung--receive-zugferd-1",
+    "source_id": "src-sevdesk-preise",
+    "plan_feature_id": "sevdesk-buchhaltung--receive-zugferd",
+    "plan_price_id": null,
+    "supporting_note": "Vergleichstabelle 'Empfangene E-Rechnungen erfassen' ✓ für Buchhaltung; Produktseite: Upload 'als XRechnung oder im ZUGFeRD-Format'."
+  },
+  {
+    "id": "cs-sevdesk-buchhaltung--receive-zugferd-2",
+    "source_id": "src-sevdesk-e-rechnung",
+    "plan_feature_id": "sevdesk-buchhaltung--receive-zugferd",
+    "plan_price_id": null,
+    "supporting_note": "Vergleichstabelle 'Empfangene E-Rechnungen erfassen' ✓ für Buchhaltung; Produktseite: Upload 'als XRechnung oder im ZUGFeRD-Format'."
+  },
+  {
+    "id": "cs-sevdesk-buchhaltung--validate-incoming-1",
+    "source_id": "src-sevdesk-e-rechnung",
+    "plan_feature_id": "sevdesk-buchhaltung--validate-incoming",
+    "plan_price_id": null,
+    "supporting_note": "Produktseite: 'Automatische Validierung deiner Eingangsrechnungen'."
+  },
+  {
+    "id": "cs-sevdesk-buchhaltung--datev-export-1",
+    "source_id": "src-sevdesk-preise",
+    "plan_feature_id": "sevdesk-buchhaltung--datev-export",
+    "plan_price_id": null,
+    "supporting_note": "Vergleichstabelle 'Export (DATEV-konform)' ✓ für Buchhaltung; Steuerberatung: CSV/XML (DATEV-Format), DATEV Rechnungsdatenservice 1.0, DATEV Buchungsdatenservice."
+  },
+  {
+    "id": "cs-sevdesk-buchhaltung--tax-advisor-access-1",
+    "source_id": "src-sevdesk-preise",
+    "plan_feature_id": "sevdesk-buchhaltung--tax-advisor-access",
+    "plan_price_id": null,
+    "supporting_note": "Vergleichstabelle 'Zusammenarbeit mit deiner Steuerberatung' ✓ für Buchhaltung."
+  },
+  {
+    "id": "cs-sevdesk-buchhaltung--bookkeeping-euer-1",
+    "source_id": "src-sevdesk-preise",
+    "plan_feature_id": "sevdesk-buchhaltung--bookkeeping-euer",
+    "plan_price_id": null,
+    "supporting_note": "Vergleichstabelle 'Einnahmen-Überschuss-Rechnung (EÜR)': ✓ für Buchhaltung."
+  },
+  {
+    "id": "cs-sevdesk-buchhaltung--public-api-1",
+    "source_id": "src-sevdesk-preise",
+    "plan_feature_id": "sevdesk-buchhaltung--public-api",
+    "plan_price_id": null,
+    "supporting_note": "Vergleichstabelle 'REST-API Schnittstelle': – für Buchhaltung."
+  },
+  {
+    "id": "cs-sevdesk-buchhaltung--runs-locally-1",
+    "source_id": "src-sevdesk-preise",
+    "plan_feature_id": "sevdesk-buchhaltung--runs-locally",
+    "plan_price_id": null,
+    "supporting_note": "Produktbeschreibung (schema.org) der Preisseite: 'cloudbasierte Rechnungs- und Buchhaltungssoftware'."
+  },
+  {
+    "id": "cs-sevdesk-buchhaltung-pro--send-xrechnung-1",
+    "source_id": "src-sevdesk-preise",
+    "plan_feature_id": "sevdesk-buchhaltung-pro--send-xrechnung",
+    "plan_price_id": null,
+    "supporting_note": "Vergleichstabelle 'E-Rechnung (in den Formaten ZUGFeRD und XRechnung) – E-Rechnungen schreiben': 'unbegrenzt' für Buchhaltung Pro."
+  },
+  {
+    "id": "cs-sevdesk-buchhaltung-pro--send-xrechnung-2",
+    "source_id": "src-sevdesk-e-rechnung",
+    "plan_feature_id": "sevdesk-buchhaltung-pro--send-xrechnung",
+    "plan_price_id": null,
+    "supporting_note": "Vergleichstabelle 'E-Rechnung (in den Formaten ZUGFeRD und XRechnung) – E-Rechnungen schreiben': 'unbegrenzt' für Buchhaltung Pro."
+  },
+  {
+    "id": "cs-sevdesk-buchhaltung-pro--send-zugferd-1",
+    "source_id": "src-sevdesk-preise",
+    "plan_feature_id": "sevdesk-buchhaltung-pro--send-zugferd",
+    "plan_price_id": null,
+    "supporting_note": "Vergleichstabelle 'E-Rechnung (in den Formaten ZUGFeRD und XRechnung) – E-Rechnungen schreiben': 'unbegrenzt' für Buchhaltung Pro."
+  },
+  {
+    "id": "cs-sevdesk-buchhaltung-pro--send-zugferd-2",
+    "source_id": "src-sevdesk-e-rechnung",
+    "plan_feature_id": "sevdesk-buchhaltung-pro--send-zugferd",
+    "plan_price_id": null,
+    "supporting_note": "Vergleichstabelle 'E-Rechnung (in den Formaten ZUGFeRD und XRechnung) – E-Rechnungen schreiben': 'unbegrenzt' für Buchhaltung Pro."
+  },
+  {
+    "id": "cs-sevdesk-buchhaltung-pro--send-quota-1",
+    "source_id": "src-sevdesk-preise",
+    "plan_feature_id": "sevdesk-buchhaltung-pro--send-quota",
+    "plan_price_id": null,
+    "supporting_note": "Tarifkarte Buchhaltung Pro: 'Unbegrenzte (E-)Rechnungen schreiben'."
+  },
+  {
+    "id": "cs-sevdesk-buchhaltung-pro--receive-xrechnung-1",
+    "source_id": "src-sevdesk-preise",
+    "plan_feature_id": "sevdesk-buchhaltung-pro--receive-xrechnung",
+    "plan_price_id": null,
+    "supporting_note": "Vergleichstabelle 'Empfangene E-Rechnungen erfassen' ✓ für Buchhaltung Pro; Produktseite: Upload 'als XRechnung oder im ZUGFeRD-Format'."
+  },
+  {
+    "id": "cs-sevdesk-buchhaltung-pro--receive-xrechnung-2",
+    "source_id": "src-sevdesk-e-rechnung",
+    "plan_feature_id": "sevdesk-buchhaltung-pro--receive-xrechnung",
+    "plan_price_id": null,
+    "supporting_note": "Vergleichstabelle 'Empfangene E-Rechnungen erfassen' ✓ für Buchhaltung Pro; Produktseite: Upload 'als XRechnung oder im ZUGFeRD-Format'."
+  },
+  {
+    "id": "cs-sevdesk-buchhaltung-pro--receive-zugferd-1",
+    "source_id": "src-sevdesk-preise",
+    "plan_feature_id": "sevdesk-buchhaltung-pro--receive-zugferd",
+    "plan_price_id": null,
+    "supporting_note": "Vergleichstabelle 'Empfangene E-Rechnungen erfassen' ✓ für Buchhaltung Pro; Produktseite: Upload 'als XRechnung oder im ZUGFeRD-Format'."
+  },
+  {
+    "id": "cs-sevdesk-buchhaltung-pro--receive-zugferd-2",
+    "source_id": "src-sevdesk-e-rechnung",
+    "plan_feature_id": "sevdesk-buchhaltung-pro--receive-zugferd",
+    "plan_price_id": null,
+    "supporting_note": "Vergleichstabelle 'Empfangene E-Rechnungen erfassen' ✓ für Buchhaltung Pro; Produktseite: Upload 'als XRechnung oder im ZUGFeRD-Format'."
+  },
+  {
+    "id": "cs-sevdesk-buchhaltung-pro--validate-incoming-1",
+    "source_id": "src-sevdesk-e-rechnung",
+    "plan_feature_id": "sevdesk-buchhaltung-pro--validate-incoming",
+    "plan_price_id": null,
+    "supporting_note": "Produktseite: 'Automatische Validierung deiner Eingangsrechnungen'."
+  },
+  {
+    "id": "cs-sevdesk-buchhaltung-pro--datev-export-1",
+    "source_id": "src-sevdesk-preise",
+    "plan_feature_id": "sevdesk-buchhaltung-pro--datev-export",
+    "plan_price_id": null,
+    "supporting_note": "Vergleichstabelle 'Export (DATEV-konform)' ✓ für Buchhaltung Pro; Steuerberatung: CSV/XML (DATEV-Format), DATEV Rechnungsdatenservice 1.0, DATEV Buchungsdatenservice."
+  },
+  {
+    "id": "cs-sevdesk-buchhaltung-pro--tax-advisor-access-1",
+    "source_id": "src-sevdesk-preise",
+    "plan_feature_id": "sevdesk-buchhaltung-pro--tax-advisor-access",
+    "plan_price_id": null,
+    "supporting_note": "Vergleichstabelle 'Zusammenarbeit mit deiner Steuerberatung' ✓ für Buchhaltung Pro."
+  },
+  {
+    "id": "cs-sevdesk-buchhaltung-pro--bookkeeping-euer-1",
+    "source_id": "src-sevdesk-preise",
+    "plan_feature_id": "sevdesk-buchhaltung-pro--bookkeeping-euer",
+    "plan_price_id": null,
+    "supporting_note": "Vergleichstabelle 'Einnahmen-Überschuss-Rechnung (EÜR)': ✓ für Buchhaltung Pro."
+  },
+  {
+    "id": "cs-sevdesk-buchhaltung-pro--public-api-1",
+    "source_id": "src-sevdesk-preise",
+    "plan_feature_id": "sevdesk-buchhaltung-pro--public-api",
+    "plan_price_id": null,
+    "supporting_note": "Vergleichstabelle 'REST-API Schnittstelle': ✓ für Buchhaltung Pro."
+  },
+  {
+    "id": "cs-sevdesk-buchhaltung-pro--runs-locally-1",
+    "source_id": "src-sevdesk-preise",
+    "plan_feature_id": "sevdesk-buchhaltung-pro--runs-locally",
+    "plan_price_id": null,
+    "supporting_note": "Produktbeschreibung (schema.org) der Preisseite: 'cloudbasierte Rechnungs- und Buchhaltungssoftware'."
+  },
+  {
+    "id": "cs-quba-desktop--receive-zugferd-1",
+    "source_id": "src-quba-readme",
+    "plan_feature_id": "quba-desktop--receive-zugferd",
+    "plan_price_id": null,
+    "supporting_note": "README: 'Wählen Sie eine eigene oder fremde E-Rechnung zur Prüfung aus … maschinenlesbare Daten auslesen … aufbereiteter Form oder im XML-Format anzeigen'."
+  },
+  {
+    "id": "cs-quba-desktop--receive-xrechnung-1",
+    "source_id": "src-quba-releases",
+    "plan_feature_id": "quba-desktop--receive-xrechnung",
+    "plan_price_id": null,
+    "supporting_note": "Release-Notiz 1.5.0: 'reader software for electronic invoices (XRechnung, Factur-X/ZUGFeRD, PDF, Order-X, CII or UBL)'. Das 2.0-README nennt nur ZUGFeRD."
+  },
+  {
+    "id": "cs-quba-desktop--validate-incoming-1",
+    "source_id": "src-quba-readme",
+    "plan_feature_id": "quba-desktop--validate-incoming",
+    "plan_price_id": null,
+    "supporting_note": "Release 2.0.0: 'now also supports offline validation'; README: Bereich 'Prüfen'."
+  },
+  {
+    "id": "cs-quba-desktop--validate-incoming-2",
+    "source_id": "src-quba-releases",
+    "plan_feature_id": "quba-desktop--validate-incoming",
+    "plan_price_id": null,
+    "supporting_note": "Release 2.0.0: 'now also supports offline validation'; README: Bereich 'Prüfen'."
+  },
+  {
+    "id": "cs-quba-desktop--send-zugferd-1",
+    "source_id": "src-quba-readme",
+    "plan_feature_id": "quba-desktop--send-zugferd",
+    "plan_price_id": null,
+    "supporting_note": "Release 2.0.0: 'creation of Factur-X/ZUGFeRD files, if a PDF/A basis file is present'."
+  },
+  {
+    "id": "cs-quba-desktop--send-zugferd-2",
+    "source_id": "src-quba-releases",
+    "plan_feature_id": "quba-desktop--send-zugferd",
+    "plan_price_id": null,
+    "supporting_note": "Release 2.0.0: 'creation of Factur-X/ZUGFeRD files, if a PDF/A basis file is present'."
+  },
+  {
+    "id": "cs-quba-desktop--runs-locally-1",
+    "source_id": "src-quba-readme",
+    "plan_feature_id": "quba-desktop--runs-locally",
+    "plan_price_id": null,
+    "supporting_note": "README: 'kostenfreie Desktop-Anwendung für Windows, MacOS & Linux'; Release 2.0.0: 'offline'."
+  },
+  {
+    "id": "cs-quba-desktop--runs-locally-2",
+    "source_id": "src-quba-releases",
+    "plan_feature_id": "quba-desktop--runs-locally",
+    "plan_price_id": null,
+    "supporting_note": "README: 'kostenfreie Desktop-Anwendung für Windows, MacOS & Linux'; Release 2.0.0: 'offline'."
+  },
+  {
+    "id": "cs-price-lexware-office-s-monthly",
+    "source_id": "src-lexware-preise",
+    "plan_feature_id": null,
+    "plan_price_id": "price-lexware-office-s-monthly",
+    "supporting_note": "Preis von der Quellseite übernommen."
+  },
+  {
+    "id": "cs-price-lexware-office-m-monthly",
+    "source_id": "src-lexware-preise",
+    "plan_feature_id": null,
+    "plan_price_id": "price-lexware-office-m-monthly",
+    "supporting_note": "Preis von der Quellseite übernommen."
+  },
+  {
+    "id": "cs-price-lexware-office-l-monthly",
+    "source_id": "src-lexware-preise",
+    "plan_feature_id": null,
+    "plan_price_id": "price-lexware-office-l-monthly",
+    "supporting_note": "Preis von der Quellseite übernommen."
+  },
+  {
+    "id": "cs-price-lexware-office-xl-monthly",
+    "source_id": "src-lexware-preise",
+    "plan_feature_id": null,
+    "plan_price_id": "price-lexware-office-xl-monthly",
+    "supporting_note": "Preis von der Quellseite übernommen."
+  },
+  {
+    "id": "cs-price-sevdesk-kostenlos",
+    "source_id": "src-sevdesk-preise",
+    "plan_feature_id": null,
+    "plan_price_id": "price-sevdesk-kostenlos",
+    "supporting_note": "Preis von der Quellseite übernommen."
+  },
+  {
+    "id": "cs-price-sevdesk-rechnung-monthly",
+    "source_id": "src-sevdesk-preise",
+    "plan_feature_id": null,
+    "plan_price_id": "price-sevdesk-rechnung-monthly",
+    "supporting_note": "Tarifkarte zeigt diesen Listenpreis; die Vergleichstabelle derselben Seite nennt abweichende 'ab'-Preise (Rechnung 12,90 €, Buchhaltung 25,90 €, Pro 34,90 € bei 24 Monaten). Manuell klären."
+  },
+  {
+    "id": "cs-price-sevdesk-rechnung-annual",
+    "source_id": "src-sevdesk-preise",
+    "plan_feature_id": null,
+    "plan_price_id": "price-sevdesk-rechnung-annual",
+    "supporting_note": "Tarifkarte zeigt diesen Listenpreis; die Vergleichstabelle derselben Seite nennt abweichende 'ab'-Preise (Rechnung 12,90 €, Buchhaltung 25,90 €, Pro 34,90 € bei 24 Monaten). Manuell klären."
+  },
+  {
+    "id": "cs-price-sevdesk-rechnung-biennial",
+    "source_id": "src-sevdesk-preise",
+    "plan_feature_id": null,
+    "plan_price_id": "price-sevdesk-rechnung-biennial",
+    "supporting_note": "Tarifkarte zeigt diesen Listenpreis; die Vergleichstabelle derselben Seite nennt abweichende 'ab'-Preise (Rechnung 12,90 €, Buchhaltung 25,90 €, Pro 34,90 € bei 24 Monaten). Manuell klären."
+  },
+  {
+    "id": "cs-price-sevdesk-buchhaltung-monthly",
+    "source_id": "src-sevdesk-preise",
+    "plan_feature_id": null,
+    "plan_price_id": "price-sevdesk-buchhaltung-monthly",
+    "supporting_note": "Tarifkarte zeigt diesen Listenpreis; die Vergleichstabelle derselben Seite nennt abweichende 'ab'-Preise (Rechnung 12,90 €, Buchhaltung 25,90 €, Pro 34,90 € bei 24 Monaten). Manuell klären."
+  },
+  {
+    "id": "cs-price-sevdesk-buchhaltung-annual",
+    "source_id": "src-sevdesk-preise",
+    "plan_feature_id": null,
+    "plan_price_id": "price-sevdesk-buchhaltung-annual",
+    "supporting_note": "Tarifkarte zeigt diesen Listenpreis; die Vergleichstabelle derselben Seite nennt abweichende 'ab'-Preise (Rechnung 12,90 €, Buchhaltung 25,90 €, Pro 34,90 € bei 24 Monaten). Manuell klären."
+  },
+  {
+    "id": "cs-price-sevdesk-buchhaltung-biennial",
+    "source_id": "src-sevdesk-preise",
+    "plan_feature_id": null,
+    "plan_price_id": "price-sevdesk-buchhaltung-biennial",
+    "supporting_note": "Tarifkarte zeigt diesen Listenpreis; die Vergleichstabelle derselben Seite nennt abweichende 'ab'-Preise (Rechnung 12,90 €, Buchhaltung 25,90 €, Pro 34,90 € bei 24 Monaten). Manuell klären."
+  },
+  {
+    "id": "cs-price-sevdesk-buchhaltung-pro-monthly",
+    "source_id": "src-sevdesk-preise",
+    "plan_feature_id": null,
+    "plan_price_id": "price-sevdesk-buchhaltung-pro-monthly",
+    "supporting_note": "Tarifkarte zeigt diesen Listenpreis; die Vergleichstabelle derselben Seite nennt abweichende 'ab'-Preise (Rechnung 12,90 €, Buchhaltung 25,90 €, Pro 34,90 € bei 24 Monaten). Manuell klären."
+  },
+  {
+    "id": "cs-price-sevdesk-buchhaltung-pro-annual",
+    "source_id": "src-sevdesk-preise",
+    "plan_feature_id": null,
+    "plan_price_id": "price-sevdesk-buchhaltung-pro-annual",
+    "supporting_note": "Tarifkarte zeigt diesen Listenpreis; die Vergleichstabelle derselben Seite nennt abweichende 'ab'-Preise (Rechnung 12,90 €, Buchhaltung 25,90 €, Pro 34,90 € bei 24 Monaten). Manuell klären."
+  },
+  {
+    "id": "cs-price-sevdesk-buchhaltung-pro-biennial",
+    "source_id": "src-sevdesk-preise",
+    "plan_feature_id": null,
+    "plan_price_id": "price-sevdesk-buchhaltung-pro-biennial",
+    "supporting_note": "Tarifkarte zeigt diesen Listenpreis; die Vergleichstabelle derselben Seite nennt abweichende 'ab'-Preise (Rechnung 12,90 €, Buchhaltung 25,90 €, Pro 34,90 € bei 24 Monaten). Manuell klären."
+  },
+  {
+    "id": "cs-price-quba-desktop",
+    "source_id": "src-quba-readme",
+    "plan_feature_id": null,
+    "plan_price_id": "price-quba-desktop",
+    "supporting_note": "Preis von der Quellseite übernommen."
+  }
+]
