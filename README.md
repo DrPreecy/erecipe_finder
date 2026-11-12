@@ -1,5 +1,8 @@
 # E‑Rechnung Finder
 
+Repository: https://github.com/DrPreecy/erecipe_finder (public). The product is still called *E‑Rechnung Finder*;
+the npm package and Docker image keep the name `erechnung-finder`.
+
 A small, **evidence-backed** finder for German e‑invoicing software: which exact plan supports *your* workflow
 (XRechnung/ZUGFeRD, receive/send, volume, handover), what it costs in year one, and which source says so.
 
@@ -69,6 +72,13 @@ fixtures/ evidence/       ← Day 4: synthetic invoices + permitted test evidenc
 5. `npm run validate && npm test` — fix whatever it complains about.
 
 See `docs/MAINTENANCE.md` for the weekly routine and `docs/DATASET.md` for the current data.
+
+## How work is organised
+
+Work runs through GitHub issues written as tight specs (`.github/ISSUE_TEMPLATE/task.yml`) and one PR per
+issue (`.github/pull_request_template.md`). Every coding agent follows [`AGENTS.md`](AGENTS.md); Claude reads
+[`CLAUDE.md`](CLAUDE.md), which points to the same rules. Labels: `agent:*` (owner), `dept:*`, `status:*`,
+`type:*`, `size:*`, `P0`–`P3`, `risk:*`, `needs:taky`.
 
 ## Next (Day 2 → plan)
 

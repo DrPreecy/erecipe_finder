@@ -1,0 +1,97 @@
+name: Task spec
+description: One tightly scoped unit of work for exactly one owner (written by Grok Bot)
+title: "<dept>: <imperative summary>"
+labels: ["status:needs-spec"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Every field is mandatory. An issue with an empty field is **not Ready** and must not be picked up.
+        Rules for all agents live in `AGENTS.md`.
+  - type: textarea
+    id: goal
+    attributes:
+      label: Goal
+      description: 1–3 sentences, the user-facing why.
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Context files (read before starting)
+      description: Paths and links the owner must read.
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: In scope
+      description: Numbered list, each item testable.
+    validations:
+      required: true
+  - type: textarea
+    id: out_of_scope
+    attributes:
+      label: Out of scope
+      description: Things the owner must NOT do.
+    validations:
+      required: true
+  - type: textarea
+    id: allowed_paths
+    attributes:
+      label: Allowed paths
+      description: Globs. Touching anything else fails review.
+      render: text
+    validations:
+      required: true
+  - type: textarea
+    id: interfaces
+    attributes:
+      label: Interfaces
+      description: Exact TypeScript signatures / JSON shapes.
+      render: ts
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance criteria (with test commands)
+      description: Given / When / Then, plus the command that proves each one.
+    validations:
+      required: true
+  - type: textarea
+    id: dod
+    attributes:
+      label: Definition of Done
+    validations:
+      required: true
+  - type: dropdown
+    id: size
+    attributes:
+      label: Size
+      options:
+        - "S (≤150 changed LOC, ≤4 files)"
+        - "M (≤400 changed LOC)"
+    validations:
+      required: true
+  - type: dropdown
+    id: owner
+    attributes:
+      label: Owner
+      options: [claude, codex, antigravity, grok, taky]
+    validations:
+      required: true
+  - type: input
+    id: reviewer
+    attributes:
+      label: Reviewer(s)
+      description: Never the owner. E.g. "Codex Code Review + Grok Bot".
+    validations:
+      required: true
+  - type: input
+    id: deps
+    attributes:
+      label: Depends on
+      description: Issue numbers that must be merged first, or "none".
+    validations:
+      required: true

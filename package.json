@@ -4,6 +4,10 @@
   "private": true,
   "type": "module",
   "description": "Evidence-backed finder for German e-invoicing (E-Rechnung) software plans",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DrPreecy/erecipe_finder.git"
+  },
   "engines": {
     "node": ">=22.12"
   },
